@@ -1,0 +1,2 @@
+class AddUserIdToPostsController < ApplicationController
+end

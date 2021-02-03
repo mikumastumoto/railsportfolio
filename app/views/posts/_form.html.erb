@@ -1,0 +1,6 @@
+<%=form_for(@post) do|f|%>
+  <%f.label=image%>
+  <%=f.file_field :img, :class="image"%>
+  <%=f.submit%>
+<%end%>
+
